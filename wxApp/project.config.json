@@ -8,9 +8,10 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.1",
+	"libVersion": "1.9.91",
 	"appid": "wx9bf9e2b939e36b52",
 	"projectname": "wxApp",
+	"isGameTourist": false,
 	"condition": {
 		"search": {
 			"current": -1,
@@ -18,6 +19,10 @@
 		},
 		"conversation": {
 			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
