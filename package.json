@@ -1,0 +1,25 @@
+{
+  "name": "homestore",
+  "version": "1.0.0",
+  "description": "this is a project use for my home.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinWeiLong/homestore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinWeiLong/homestore/issues"
+  },
+  "homepage": "https://github.com/LinWeiLong/homestore#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.15.0"
+  }
+}
