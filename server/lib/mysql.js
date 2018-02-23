@@ -1,4 +1,4 @@
-const mysql = require('server/lib/mysql');
+const mysql = require('mysql');
 const config = require('../config/index');
 
 const pool = mysql.createPool({

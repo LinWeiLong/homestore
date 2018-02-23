@@ -3,7 +3,18 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import qs from 'qs'
 
+
+axios.defaults.withCredentials = true;
+
+Vue.prototype.$http = {
+  get: axios.get,
+  post: (url, params)=>{
+    return axios.post(url, qs.stringify(params));
+  }
+};
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
